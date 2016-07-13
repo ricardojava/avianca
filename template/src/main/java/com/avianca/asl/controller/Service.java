@@ -10,7 +10,10 @@ import javax.ws.rs.core.MediaType;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Controller;
 
 import com.avianca.asl.roles.business.CreateJsonResponse;
 import com.avianca.asl.service.Command;
@@ -24,10 +27,16 @@ import com.google.gson.Gson;
  * @since 07/2016
  */
 
-@Component
+@Controller
 @Path("/service")
 public class Service {
+	
+	
 	private Logger logger = LoggerFactory.getLogger(this.getClass());
+	
+	@Autowired
+	@Qualifier("serviceCommand")
+	Command command ;
 	
 	@GET
 	@Path("//{token}")
@@ -35,11 +44,10 @@ public class Service {
 	public String (@PathParam("token") String token,@PathParam("numsolici") String numSolici,@PathParam("typeticket") String typeTicket){
 		logger.debug(token);
 		
-		Command command = new ServiceCommand();
 		
 		
 		
-		String  msgRetunr = command.execute(token,numSolici,typeTicket);
+		String  msgRetunr = command.execute(token);
 		
 		
 		

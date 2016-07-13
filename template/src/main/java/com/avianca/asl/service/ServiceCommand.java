@@ -1,5 +1,7 @@
 package com.avianca.asl.service;
 
+import org.springframework.stereotype.Component;
+
 import com.avianca.asl.domain.MsgReturn;
 import com.avianca.asl.roles.business.CreateJsonResponse;
 import com.avianca.asl.roles.business.Rules;
@@ -11,6 +13,8 @@ import com.avianca.asl.roles.business.Rules;
  * @since 07/2016
  */
 
+
+@Component(value="serviceCommand")
 public class ServiceCommand implements Command {
 
 	@Override

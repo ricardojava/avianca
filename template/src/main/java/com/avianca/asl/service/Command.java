@@ -11,10 +11,6 @@ import java.util.List;
 public interface Command {
 	
 	String execute(String token);
-	String execute(String token,String param2);
-	String execute(String token,String param2,String param3);
-	String execute(String token,String param2,String param3,String param4);
-	String execute(String token,String param2,String param3,String param4,String param5);
 	
 
 }
