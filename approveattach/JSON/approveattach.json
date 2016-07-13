@@ -1,0 +1,20 @@
+Entrada:
+{
+	"approveattach": {
+		"token": "fafdfdfdhfdhfka04320473087489dfgkljldhfldhfdhaflg98379879r8bfkdafjkl9r4",		
+		"numsolici": "32132132131",
+		"typeticket": "EMD",
+		"numticket": "433424314341",		
+		"idattach": "AASsasa!1212121",
+		"resultanalise": "true",
+		"codmotivreprov": "332",
+		"descrimotivosoutros":"texto livre digitado pelo atendente
+	}
+}
+Saída:
+{
+   "approveattach":{
+      "codReturn":3,
+      "msg":"Bilhete informado não pertence ao Nº de Solicitação."      
+     }
+ }

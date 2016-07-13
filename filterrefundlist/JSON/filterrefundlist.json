@@ -1,0 +1,117 @@
+Entrada:
+{
+	"filterrefundlist": {
+		"token": "jçgjçfjdçfjf897f6f96dfydhlfhlahfldfd765457f43d6a3fda4fd9fhdkjnflkdafj",
+		"typeticket": "EMD",
+		"numticket": "5454245425",
+		"numra": "121",
+		"namepax": "Josè",
+		"lastnamepax": "Da Silva",
+		"periodoini": "12/12/2012",
+		"periodoend": "12/03/2013",
+		"codstatus": "212"
+	}
+}
+
+Saída:
+{
+   "filterrefundlist":{
+      "cod":"0",
+      "msg":"OK",
+      "refundlist":{
+         "id":"1",
+         "data":{
+            "numsolici":"414313",
+            "numra":"fdafda",
+            "numticket":"fadfdsafd",
+            "name":"Maria",
+            "lastname":"do Socorro",
+            "datesoli":"12/12/2012",
+            "canal":"SAC",
+            "codstatus":"12",
+            "descstatus":"Status teste",
+            "from":{
+               "voo":"O61233",
+               "data":"12/12/1212",
+               "hora":"12:12",
+               "aeroporto":"GRU",
+               "cidade":"são Paulo"
+            },
+            "to":{
+               "voo":"O634655",
+               "data":"12/12/1212",
+               "hora":"12:12",
+               "aeroporto":"GRU",
+               "cidade":"sampa"
+            },
+            "dateupdateatua":"12/12/2012",
+            "codpay":"01",
+            "descpay":"CARTÂO DE CREDITO",
+            "codrefund":"101",
+            "descrefund":"Reembolço por falecimento"
+         },
+         "id":"2",
+         "data":{
+            "numsoli":"414313",
+            "numra":"fdafda",
+            "numticket":"fadfdsafd",
+            "name":"Mariana",
+            "lastname":"Camargo",
+            "datesoli":"12/12/2012",
+            "canal":"SAC",
+            "codstatus":"12",
+            "descstatus":"Descrição de teste",
+            "from":{
+               "voo":"O68080",
+               "data":"12/12/1212",
+               "hora":"12:12",
+               "aeroporto":"GRU",
+               "cidade":"Guatemala"
+            },
+            "to":{
+               "voo":"O63311",
+               "data":"12/12/1212",
+               "hora":"12:12",
+               "aeroporto":"GRU",
+               "cidade":"Uruaguaiana"
+            },
+            "dateupdateatua":"12/12/2012",
+            "codpay":"01",
+            "descpay":"CARTÂO DE CREDITO",
+            "codrefund":"12",
+            "descrefund":"Descrição de teste"
+         },
+         "id":"3",
+         "data":{
+            "numsolici":"414313",
+            "numra":"21803821",
+            "numticket":"32132312321",
+            "name":"Paulo",
+            "lastname":"Vieira",
+            "datesoli":"12/12/2012",
+            "canal":"SAC",
+            "codstatus":"12",
+            "descstatus":"Descrição de teste",
+            "from":{
+               "voo":"O65555",
+               "data":"12/12/1212",
+               "hora":"12:12",
+               "aeroporto":"GRU",
+               "cidade":"Rio de Janeiro"
+            },
+            "to":{
+               "voo":"O62222167",
+               "data":"12/12/1212",
+               "hora":"12:12",
+               "aeroporto":"GRU",
+               "cidade":"Porto Alegre"
+            },
+            "dateupdateatua":"12/12/2012",
+            "codpay":"01",
+            "descpay":"CARTÂO DE CREDITO",
+            "codrefund":"12",
+            "descrefund":"afdfadfd"
+         }
+      }
+   }
+}

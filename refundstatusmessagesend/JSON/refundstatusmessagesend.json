@@ -1,0 +1,17 @@
+Entrada:
+{
+	"refundstatusmessagesend": {
+		"token": "ffdfdadfdf98df08df7dafda69fçjlaljfkçjfda987d9f7d0a8f7da",
+		"numsolici": "4344343413",
+		"typeticket": "EMD",
+		"numticket": "313434356478"
+	}
+}
+
+Saída:
+{
+   "refundstatusmessagesend":{
+      "codReturn":3,
+      "msg":"Bilhete informado não pertence ao Nº de Solicitação."
+      }
+ }
