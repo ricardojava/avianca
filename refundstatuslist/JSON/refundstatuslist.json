@@ -1,0 +1,33 @@
+Entrada:
+{
+	"refundstatuslist": {
+     "token":"jfdafjahlfhlafhlah27948798bfdksfsh9r848q",
+     "numsolici":"23232323",
+     "typeticket":"EMD"
+  }
+}
+
+
+Saída:
+{
+	"refundstatuslist": {
+		"codReturn": 0,
+		"msg": "Consulta com successo.",
+		"listhistory": {
+			"id": 1,
+			"value": {
+				"cod": "12",
+				"desc": "teste teste",
+				"dtaatua": "12/12/2012",
+				"useratua": "kelly"
+			},
+			"id": 2,
+			"value": {
+				"cod": "12",
+				"desc": "teste teste",
+				"dtaatua": "12/12/2012",
+				"useratua": "Cassandra"
+			}
+		}
+	}
+}

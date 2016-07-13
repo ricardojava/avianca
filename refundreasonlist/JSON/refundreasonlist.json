@@ -1,0 +1,58 @@
+Entrada:
+{
+	"refundreasonlist": {
+     "token":"jfdafjahlfhlafhlah27948798bfdksfsh9r848q",
+     "typeticket":"PNR",
+     "numticket":"2342324"
+  }
+}
+
+Saída:
+{
+	"refundreasonlist": {
+		"cod": "0",
+		"msg": "Consulta com sucesso",
+		"listreasons": [
+			{
+				"cod": "0.0",
+				"desc": "PARTICULARES",
+				"cod": "0.1",
+				"desc": "FALHA ATC",
+				"cod": "1.1",
+				"desc": "PASSAGEIRO PREJUDICADO POR CANCELAMENTO DE VOO",
+				"cod": "1.2",
+				"desc": "PASSAGEIRO PREJUDICADO POR ATRASO DE VOO SUPERIOR A 4 HORAS",
+				"cod": "1.3",
+				"desc": "PASSAGEIRO PREJUDICADO POR CANCELAMENTO DE ALGUMA ETAPA DO VOO",
+				"cod": "1.4",
+				"desc": "PASSAGEIRO PREJUDICADO E REACOMODAÇÃO VIA TERRESTRE",
+				"cod": "1.5",
+				"desc": "PASSAGEIRO PREJUDICADO DEVIDO OVBK",
+				"cod": "1.6",
+				"desc": "PASSAGEIRO PREJUDICADO DEVIDO OVBK E ACEITOU CONTINGÊNCIA",
+				"cod": "2.1",
+				"desc": "DUPLICIDADE DE COMPRA",
+				"cod": "3.1",
+				"desc": "PASSAGEIRO IMPOSSIBILITADO PARA VIAJAR POR ESTAR ENFERMO",
+				"cod": "3.2",
+				"desc": "FALACIMENTO DO PASSAGEIRO",
+				"cod": "4.2",
+				"desc": "FALHA NO CANCELAMENTO",
+				"cod": "4.3",
+				"desc": "REEMBOLSO INTEGRAL JURIDICO",
+				"cod": "4.4",
+				"desc": "FALHA NO RECEBIMENTO DE EMAIL DE CANCELAMENTO DE COMPRA",
+				"cod": "4.6",
+				"desc": "CANCELAMENTO DE VENDA (ARREPENDIMENTO ATÉ 7 DIAS)–Somente compra com até 7 dias corridos",
+				"cod": "5.1",
+				"desc": "FALHA DO COLABORADOR CALL CENTER",
+				"cod": "5.2",
+				"desc": "FALHA DO COLABORADOR AEROPORTOS",
+				"cod": "6.1",
+				"desc": "SAC001",
+				"cod": "6.2",
+				"desc": "SAC002"
+			}
+		]
+	}
+}
