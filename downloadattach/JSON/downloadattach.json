@@ -1,0 +1,19 @@
+Entrada:
+{
+	"downloadattach": {
+		"token": "jfçjfçdafjdaf8d9f87d987fd08afdfhiduufhkyagsf9f7d9as7f",
+		"numsolici": "34314343143",
+		"typeticket": "EMD",
+		"numticket": "31231312",		
+		"idattach": "ZARR21212"
+	}
+}
+
+Saída:
+{
+   "downloadattach":{
+      "codReturn":0,
+      "msg":"Consulta com successo.",
+      "img":"encodImagem"      
+    }
+ }
