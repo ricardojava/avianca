@@ -1,0 +1,443 @@
+
+Entrada:
+{
+	"ticketsearch": {
+		"token": "eufnufuaponufauu9741307439nvojcn",
+		"numticket": "34314341434343143",
+		"namepax": "Marcelo",
+		"lastname": "Souza",
+		"numpnr": "23232",
+		"numvoo": "O63178",
+		"from": "USA",
+		"to":"Brasil",
+		"dtavoo": "12/12/2012",
+		"hrvoo": "23:22"		
+	}
+}
+
+
+Saída:
+{
+	"ticketsearch": {
+		"codReturn": 0,
+		"msg": "OK",
+		"ticketlist": {
+			"id": "1",
+			"validofficeid":"0-Permitido",
+			"validityticket":"true",
+			"data": {
+				"typeticket": "PNR",
+				"numticket": "21321321321",
+				"typepax": "ADT",
+				"namepax": "Sandro",
+				"lastname": "Silva",
+				"statusamadeus": "ffdafd",
+				"statusrefund": "fdfdfd",
+				"typepayment": "cartão de credito",
+				"dtapurchase": "24-06-2016",
+				"officeidvenda": "cod IATA SAO123456",
+				"payvalue": "200,00",
+				"taxvalue": "12,50",
+				"totalvalue": "212,50",
+				"voo": {
+					"ida": {
+						"partida": {
+							"cidade": "São Paulo",
+							"pais": "Brasil",
+							"data": "12/12/2012",
+							"itinerario": {
+								"partida": {
+									"ciaoperadora": "Avianca",
+									"ciamarketing": "GOL",
+									"numvoo": "O61212",
+									"aeronave": "AIRBUS 1212",
+									"tarifafamilia": "PLUS",
+									"timevoo": "2 horas",
+									"typevoo": "conexao",
+									"seat": "A1",
+									"ssrlist": {
+										"typessr": "alimentação",
+										"desc": "jantar vegetariano",
+										"emd": "121212121"
+									}
+								},
+								"chegada": {
+									"ciaoperadora": "Avianca",
+									"ciamarketing": "GOL",
+									"numvoo": "O61212",
+									"aeronave": "AIRBUS 1212",
+									"tarifafamilia": "PLUS",
+									"timevoo": "2 horas",
+									"typevoo": "conexao",
+									"seat": "A1",
+									"ssrlist": {
+										"typessr": "alimentação",
+										"desc": "jantar vegetariano",
+										"emd": "121212121"
+									}
+								},
+								"partida": {
+									"ciaoperadora": "Avianca",
+									"ciamarketing": "GOL",
+									"numvoo": "O61212",
+									"aeronave": "AIRBUS 1212",
+									"tarifafamilia": "PLUS",
+									"timevoo": "2 horas",
+									"typevoo": "conexao",
+									"seat": "A1",
+									"ssrlist": {
+										"typessr": "alimentação",
+										"desc": "jantar vegetariano",
+										"emd": "121212121"
+									}
+								},
+								"chegada": {
+									"ciaoperadora": "Avianca",
+									"ciamarketing": "GOL",
+									"numvoo": "O61212",
+									"aeronave": "AIRBUS 1212",
+									"tarifafamilia": "PLUS",
+									"timevoo": "2 horas",
+									"typevoo": "conexao",
+									"seat": "A1",
+									"ssrlist": {
+										"typessr": "alimentação",
+										"desc": "jantar vegetariano",
+										"emd": "121212121"
+									}
+								},
+								"partida": {
+									"ciaoperadora": "Avianca",
+									"ciamarketing": "GOL",
+									"numvoo": "O61212",
+									"aeronave": "AIRBUS 1212",
+									"tarifafamilia": "PLUS",
+									"timevoo": "2 horas",
+									"typevoo": "conexao",
+									"seat": "A1",
+									"ssrlist": {
+										"typessr": "alimentação",
+										"desc": "jantar vegetariano",
+										"emd": "121212121"
+									}
+								},
+								"chegada": {
+									"ciaoperadora": "Avianca",
+									"ciamarketing": "GOL",
+									"numvoo": "O61212",
+									"aeronave": "AIRBUS 1212",
+									"tarifafamilia": "PLUS",
+									"timevoo": "2 horas",
+									"typevoo": "conexao",
+									"seat": "A1",
+									"ssrlist": {
+										"typessr": "alimentação",
+										"desc": "jantar vegetariano",
+										"emd": "121212121"
+									}
+								}
+							}
+						},
+						"chegada": {
+							"cidade": "Salvador",
+							"pais": "Brasil",
+							"data": "12/12/2014"
+						}
+					},
+					"volta": {
+						"partida": {
+							"cidade": "Salvador",
+							"pais": "Brasil",
+							"data": "12/12/2015",
+							"itinerario": {
+								"partida": {
+									"ciaoperadora": "Avianca",
+									"ciamarketing": "GOL",
+									"numvoo": "O61212",
+									"aeronave": "AIRBUS 1212",
+									"tarifafamilia": "PLUS",
+									"timevoo": "2 horas",
+									"typevoo": "conexao",
+									"seat": "A1",
+									"ssrlist": {
+										"typessr": "alimentação",
+										"desc": "jantar vegetariano",
+										"emd": "121212121"
+									}
+								},
+								"chegada": {
+									"ciaoperadora": "Avianca",
+									"ciamarketing": "GOL",
+									"numvoo": "O61212",
+									"aeronave": "AIRBUS 1212",
+									"tarifafamilia": "PLUS",
+									"timevoo": "2 horas",
+									"typevoo": "conexao",
+									"seat": "A1",
+									"ssrlist": {
+										"typessr": "alimentação",
+										"desc": "jantar vegetariano",
+										"emd": "121212121"
+									}
+								},
+								"partida": {
+									"ciaoperadora": "Avianca",
+									"ciamarketing": "GOL",
+									"numvoo": "O61212",
+									"aeronave": "AIRBUS 1212",
+									"tarifafamilia": "PLUS",
+									"timevoo": "2 horas",
+									"typevoo": "conexao",
+									"seat": "A1",
+									"ssrlist": {
+										"typessr": "alimentação",
+										"desc": "jantar vegetariano",
+										"emd": "121212121"
+									}
+								},
+								"chegada": {
+									"ciaoperadora": "Avianca",
+									"ciamarketing": "GOL",
+									"numvoo": "O61212",
+									"aeronave": "AIRBUS 1212",
+									"tarifafamilia": "PLUS",
+									"timevoo": "2 horas",
+									"typevoo": "conexao",
+									"seat": "A1",
+									"ssrlist": {
+										"typessr": "alimentação",
+										"desc": "jantar vegetariano",
+										"emd": "121212121"
+									}
+								},
+								"partida": {
+									"ciaoperadora": "Avianca",
+									"ciamarketing": "GOL",
+									"numvoo": "O61212",
+									"aeronave": "AIRBUS 1212",
+									"tarifafamilia": "PLUS",
+									"timevoo": "2 horas",
+									"typevoo": "conexao",
+									"seat": "A1",
+									"ssrlist": {
+										"typessr": "alimentação",
+										"desc": "jantar vegetariano",
+										"emd": "121212121"
+									}
+								},
+								"chegada": {
+									"ciaoperadora": "Avianca",
+									"ciamarketing": "GOL",
+									"numvoo": "O61212",
+									"aeronave": "AIRBUS 1212",
+									"tarifafamilia": "PLUS",
+									"timevoo": "2 horas",
+									"typevoo": "conexao",
+									"seat": "A1",
+									"ssrlist": {
+										"typessr": "alimentação",
+										"desc": "jantar vegetariano",
+										"emd": "121212121"
+									}
+								}
+							}
+						},
+						"chegada": {
+							"cidade": "São Paulo",
+							"pais": "Brasil",
+							"data": "12/12/2015"
+						}
+					}
+				}
+			},
+			"id": "2",
+			"validofficeid":"1-Não permitido. Dirijir-se ir a loja",
+			"validityticket":"S",			
+			"data": {
+				"typeticket": "PNR",
+				"numticket": "21321321321",
+				"typepax": "CHD",
+				"namepax": "Sandro",
+				"lastname": "Silva",
+				"statusamadeus": "ffdafd",
+				"statusrefund": "fdfdfd",
+				"typepayment": "cartão de credito",
+				"dtapurchase": "24-06-2016",
+				"officeidvenda": "cod IATA SAO123456",
+				"payvalue": "200,00",
+				"taxvalue": "12,50",
+				"totalvalue": "212,50",
+				"voo": {
+					"ida": {
+						"partida": {
+							"cidade": "São Paulo",
+							"pais": "Brasil",
+							"data": "12/12/2012",
+							"itinerario": {
+								"partida": {
+									"ciaoperadora": "Avianca",
+									"ciamarketing": "GOL",
+									"numvoo": "O61212",
+									"aeronave": "AIRBUS 1212",
+									"tarifafamilia": "PLUS",
+									"timevoo": "2 horas",
+									"typevoo": "conexao",
+									"seat": "A1",
+									"ssrlist": {
+										"typessr": "alimentação",
+										"desc": "jantar vegetariano",
+										"emd": "121212121"
+									}
+								},
+								"chegada": {
+									"ciaoperadora": "Avianca",
+									"ciamarketing": "GOL",
+									"numvoo": "O61212",
+									"aeronave": "AIRBUS 1212",
+									"tarifafamilia": "PLUS",
+									"timevoo": "2 horas",
+									"typevoo": "conexao",
+									"seat": "A1",
+									"ssrlist": {
+										"typessr": "alimentação",
+										"desc": "jantar vegetariano",
+										"emd": "121212121"
+									}
+								},
+								"partida": {
+									"ciaoperadora": "Avianca",
+									"ciamarketing": "GOL",
+									"numvoo": "O61212",
+									"aeronave": "AIRBUS 1212",
+									"tarifafamilia": "PLUS",
+									"timevoo": "2 horas",
+									"typevoo": "conexao",
+									"seat": "A1",
+									"ssrlist": {
+										"typessr": "alimentação",
+										"desc": "jantar vegetariano",
+										"emd": "121212121"
+									}
+								},
+								"chegada": {
+									"ciaoperadora": "Avianca",
+									"ciamarketing": "GOL",
+									"numvoo": "O61212",
+									"aeronave": "AIRBUS 1212",
+									"tarifafamilia": "PLUS",
+									"timevoo": "2 horas",
+									"typevoo": "conexao",
+									"seat": "A1",
+									"ssrlist": {
+										"typessr": "alimentação",
+										"desc": "jantar vegetariano",
+										"emd": "121212121"
+									}
+								},
+								"partida": {
+									"ciaoperadora": "Avianca",
+									"ciamarketing": "GOL",
+									"numvoo": "O61212",
+									"aeronave": "AIRBUS 1212",
+									"tarifafamilia": "PLUS",
+									"timevoo": "2 horas",
+									"typevoo": "conexao",
+									"seat": "A1",
+									"ssrlist": {
+										"typessr": "alimentação",
+										"desc": "jantar vegetariano",
+										"emd": "121212121"
+									}
+								},
+								"chegada": {
+									"ciaoperadora": "Avianca",
+									"ciamarketing": "GOL",
+									"numvoo": "O61212",
+									"aeronave": "AIRBUS 1212",
+									"tarifafamilia": "PLUS",
+									"timevoo": "2 horas",
+									"typevoo": "conexao",
+									"seat": "A1",
+									"ssrlist": {
+										"typessr": "alimentação",
+										"desc": "jantar vegetariano",
+										"emd": "121212121"
+									}
+								}
+							}
+						},
+						"chegada": {
+							"cidade": "Salvador",
+							"pais": "Brasil",
+							"data": "12/12/2014"
+						}
+					}
+				}
+			},
+			"id": "3",
+			"validofficeid":"2-Permitido com autorização",
+			"validityticket":"S",
+			"data": {
+				"typeticket": "PNR",
+				"numticket": "21321321321",
+				"typepax": "CHD",
+				"namepax": "Sandro",
+				"lastname": "Silva",
+				"statusamadeus": "ffdafd",
+				"statusrefund": "fdfdfd",
+				"typepayment": "cartão de credito",
+				"dtapurchase": "24-06-2016",
+				"officeidvenda": "cod IATA SAO123456",
+				"payvalue": "200,00",
+				"taxvalue": "12,50",
+				"totalvalue": "212,50",
+				"voo": {
+					"ida": {
+						"partida": {
+							"cidade": "São Paulo",
+							"pais": "Brasil",
+							"data": "12/12/2012",
+							"itinerario": {
+								"partida": {
+									"ciaoperadora": "Avianca",
+									"ciamarketing": "GOL",
+									"numvoo": "O61212",
+									"aeronave": "AIRBUS 1212",
+									"tarifafamilia": "PLUS",
+									"timevoo": "2 horas",
+									"typevoo": "conexao",
+									"seat": "A1",
+									"ssrlist": {
+										"typessr": "alimentação",
+										"desc": "jantar vegetariano",
+										"emd": "121212121"
+									}
+								},
+								"chegada": {
+									"ciaoperadora": "Avianca",
+									"ciamarketing": "GOL",
+									"numvoo": "O61212",
+									"aeronave": "AIRBUS 1212",
+									"tarifafamilia": "PLUS",
+									"timevoo": "2 horas",
+									"typevoo": "conexao",
+									"seat": "A1",
+									"ssrlist": {
+										"typessr": "alimentação",
+										"desc": "jantar vegetariano",
+										"emd": "121212121"
+									}
+								}
+							}
+						},
+						"chegada": {
+							"cidade": "Salvador",
+							"pais": "Brasil",
+							"data": "12/12/2014"
+						}
+					}
+				}
+			}
+		}
+	}
+}
