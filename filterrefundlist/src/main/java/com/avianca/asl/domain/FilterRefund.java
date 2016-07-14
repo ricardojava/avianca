@@ -2,7 +2,7 @@ package com.avianca.asl.domain;
 
 import java.time.LocalDate;
 
-public class FilterRefund {
+public class FilterRefund implements Domain{
 
 	private String token;
 	private String typeTicket;

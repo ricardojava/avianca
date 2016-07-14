@@ -3,6 +3,8 @@ package com.avianca.asl.roles.business;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.springframework.stereotype.Component;
+
 import com.avianca.asl.domain.MsgReturn;
 import com.google.gson.Gson;
 
@@ -17,7 +19,7 @@ import com.google.gson.Gson;
  */
 
 
-
+@Component
 public class CreateJsonResponse {
 	private Gson gson;
 	private MsgReturn msgReturn;
@@ -42,6 +44,7 @@ public class CreateJsonResponse {
 		/* vai na regra de negocios
 		   valia carrega a lista de status
 		*/
+		
 		List listaStatus = new ArrayList();
 		
 		msgReturn.setCodMsg(0);

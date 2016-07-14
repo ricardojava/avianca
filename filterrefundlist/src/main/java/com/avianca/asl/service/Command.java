@@ -1,6 +1,8 @@
 package com.avianca.asl.service;
 
+import com.avianca.asl.domain.Domain;
 import com.avianca.asl.domain.FilterRefund;
+
 /**
  * 
  * @author ricardoalmeida
