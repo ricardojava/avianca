@@ -1,0 +1,142 @@
+Entrada:
+{
+	"refundsearch": {
+		"toke": "ldhfdanafl0854025874fldksjgj07r8947rrqnvvnpeuuqr321321321gsfgfgsfgfgfsgfgfsgs",
+		"numsolici": "30247894",
+		"typeticket": "EMD",
+		"numticket": "4234324342"
+	}
+}
+
+
+Saída:
+{
+   "refundsearch":{
+      "codReturn":3,
+      "msg":"Consulta realizado com sucesso.",
+      
+      "dados":{
+         "user":"Luiz da Silva Xavier",
+         "codmotivo":"1212",
+         "desc":"jajfçkdfjja",
+         "dtapay":"12/12/2012",
+         "dtavoo":"12/12/2012",
+         "hrvoo":"12:12",
+         "from":"GRU",
+         "to":"CCC",
+         "typetarifa":"121212",
+         "localepay":"São Salvador",
+         "tarifapaga":"12,50",
+         "tarifausada":"34,50",
+         "typepenalidade":"affafda",
+         "valorpenalidade":"12,21",
+         "regratarifaaplicada":"fafda",
+         "valuetotalrefund":"122,00",
+         "codticketduplicado":"3123123",
+         "codstatussolicitacao":"314312",
+         "descstatussolicitacao":"Descrição teste",
+         "numrar2tech":"23213213",
+         
+         
+         "DadosSolicitante":{
+            "typepessoa":"PJ ou PF",
+            "numdoctypepessoa":"cpf ou cnpj",
+            "dataexist":"data de nascimento ou criação da empresa",
+            "name":"Nome completo (PF) / Razão Social (PJ)",
+            "numdoc":"RG/RNE (PF)",
+            "tel":"Telefone Contato",
+            "email":" E-mail"
+         },
+         
+         
+         "listattach":{
+            "idarq":"Identificação do Arquivo",
+            "descarq":" Descrição do Arquivo Anexo",
+            "statusaprove":" Status de Aprovação",
+            "motivorepro":"Motivo da Reprovação",
+            "dtaanaliseanexo":"Data da Análise do Anexo",
+            "useravaliacaoanexo":"Usuário que avaliou o Anexo – somente para Canal de Atendimento Call Center."
+         },
+         
+         
+         "typefop":"Tipo da FOP (corrente, poupança, cartão crédito, boleto, cash, 3DS)",
+         "titular":"Tipo do Titular (PF/PJ/GOV)",
+         "dnumdoctitular":"CPF/CNPJ Titular",
+         "nametitular":"Nome do Titular",
+         "bandeira":"Bandeira",
+         "numcartao":"Número do cartão crédito (parcial)",
+         "validadecartao":"Vencimento Cartão de Crédito",
+         "formapa":"Forma de Pagamento do Reembolso",
+         
+         
+         "DadosFavorecido":{
+            "typetitular":"Tipo do Titular da Conta Corrente ou Poupança (próprio pax ou 3º)",
+            "numdoctitular":"CPF/CNPJ Titular",
+            "nametitular":"Nome do Titular",
+            "namefantasia":"Nome Fantasia (PJ)",
+            "inscriestadual":"Inscrição Estadual (PJ)",
+            "inscrimuniciapl":"Inscrição Municipal (PJ)",
+            "cep":"CEP",
+            "logradouro":"Logradouro do Endereço",
+            "num":"Número Endereço",
+            "complemento":"Complemento Endereço",
+            "bairro":"Bairro",
+            "cidade":"Cidade",
+            "uf":"UF",
+            "pais":"País",
+            "typeconta":"Tipo de Conta do Pagamento do Reembolso (corrente/poupança, cartão crédito, ordem de pagamento, conta no estrangeiro)",
+            "codbank":"Código do Banco",
+            "agencia":"Número da Agência Bancária",
+            "numconta":"Número da Conta",
+            "cartãocrédito":"sim ou não",
+            "bandeira":"visa",
+            "numcartao":"Número do cartão crédito (parcial)",
+            "validade":"Vencimento",
+            "ordempay":"Ordem de Pagamento",
+            "rgfavorecido":"11111111111",
+            "cpffavorecido":"2222222222",
+            "dtanascfavorecido":"12/12/2012",
+            "codbank":"Código do Banco (Só Santander)",
+            
+            
+            "DadosAgenciaDestino":{
+               "codagencia":"Código da Agência",
+               "cep":"334314314",
+               "rua":"Logradouro do Endereço",
+               "num":"Número Endereço",
+               "complemento":"Complemento Endereço",
+               "bairro":"Bairro",
+               "cidade":"Cidade",
+               "uf":"UF",
+               "pais":"País",
+               
+               
+               "ContaEstrangeiro":{
+                  "namebanck":"Nome do Banco",
+                  "banckintermediario":"Banco intermediário branc code/transit code",
+                  "codbanck":"Código do Banco (ABA - SWIFT - ACH)",
+                  "nametitular":"Nome do Titular da Conta",
+                  "numidentificacao":"Número de Identificação (deve ser o mesmo registrado no Banco)",
+                  "numconta":"Número da Conta (Chave de 22 dígitos)",
+                  "pais":"País da Conta",
+                  "moedaconta":"Moeda da Conta",
+                  "typeconta":"Tipo de Conta",
+                  "numpassaportetitular":"Número do Passaporte do Titular",
+                  "numdoc":"Número do Documento do Titular",
+                  "tel":"Telefone",
+                  "numagencia":"Número da Agência Bancária",
+                  "nameconta":"Nome da Conta: mesmo que tipo?"
+               }
+            },
+            
+            
+            "listhistoryrefundequalsticket":{
+               "numsolicitacao":"Número da Solicitação",
+               "dtaopen":"Data da Abertura",
+               "statussolicitacao":"Status da Solicitação",
+               "dtalaststatus":"Data do Último Status"
+            }
+         }
+      }
+   }
+}
