@@ -1,8 +1,11 @@
 package com.avianca.asl.service;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
+import org.springframework.stereotype.Component;
+
+import com.avianca.asl.domain.MsgReturn;
+import com.avianca.asl.domain.RefundConfirmation;
+import com.avianca.asl.roles.business.CreateJsonResponse;
+import com.avianca.asl.roles.business.Rules;
 
 /**
  * 
@@ -11,43 +14,37 @@ import java.util.List;
  * @since 07/2016
  */
 
-public class ServiceCommand implements Command{
 
+@Component(value="serviceCommand")
+public class ServiceCommand implements Command {
 
 	
 
 	@Override
-	public List execute(String param1, String param2) {
+	public String execute(RefundConfirmation confirmation) {
 		// TODO Auto-generated method stub
-		return null;
+
+		MsgReturn msg = new MsgReturn();
+
+		CreateJsonResponse json = null;
+
+		Rules rules = new Rules();
+		rules.fildIsEmpity(confirmation.getToken());
+
+		if (rules.validToken(confirmation.getToken())) {
+
+			json = new CreateJsonResponse(msg);
+
+			return json.jsonReturn();
+
+		} else {
+			json = new CreateJsonResponse(msg);
+
+			return json.jsonReturnErrro();
+		}
+
 	}
 
-	@Override
-	public List execute(String param1, String param2, String param3) {
-		List serviceReturn = new ArrayList();
-		
-		
-        
-		
-		return Collections.unmodifiableList(serviceReturn);
-	}
-
-	@Override
-	public List execute(String param1, String param2, String param3, String param4) {
-		// TODO Auto-generated method stub
-		return null;
-	}
 	
-	@Override
-	public List execute(String param1, String param2, String param3, String param4,String param5) {
-		// TODO Auto-generated method stub
-		
-		List refundCalculation = new ArrayList();
-				
-		
-		            
-				
-		return Collections.unmodifiableList(refundCalculation);
-	}
 
 }

@@ -1,6 +1,7 @@
 package com.avianca.asl.service;
 
-import java.util.List;
+import com.avianca.asl.domain.RefundConfirmation;
+
 /**
  * 
  * @author ricardoalmeida
@@ -10,10 +11,7 @@ import java.util.List;
 
 public interface Command {
 	
-	List execute(String param1,String param2);
-	List execute(String param1,String param2,String param3);
-	List execute(String param1,String param2,String param3,String param4);
-	List execute(String param1,String param2,String param3,String param4,String param5);
+	String execute(RefundConfirmation confirmation);
 	
 
 }

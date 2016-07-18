@@ -9,10 +9,10 @@ import java.util.Iterator;
  * @author ricardoalmeida
  *
  */
-public class RulesConfirmation {
+public class Rules {
 	
 	
-	boolean fildIsEmpity(String ...strings){
+	public boolean fildIsEmpity(String ...strings){
 	  for (String string : strings) {
 		
 		  if(string.isEmpty()||string==null)
@@ -23,7 +23,13 @@ public class RulesConfirmation {
 		return true;
 	}
 	
-	
+	public boolean validToken(String token){
+		if(!token.isEmpty()){
+			return true;
+		}
+		
+		return false;
+	}
 	
 
 }
