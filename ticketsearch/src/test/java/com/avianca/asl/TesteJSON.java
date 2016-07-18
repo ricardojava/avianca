@@ -38,9 +38,19 @@ public class TesteJSON {
 		ticketsearch.setDetailsPaxFlight(dpf);
 		
 		Gson gson = new Gson();
-		//gson.j
 		
+		System.out.println(gson.toJson(ticketsearch, MsgReturn.class));
 		System.out.println(gson.toJson(ticketsearch));
+		
+		
+		/*Type listType = new TypeToken<List<String>>() {}.getType();
+		 List<String> target = new LinkedList<String>();
+		 target.add("blah");
+
+		 Gson gson = new Gson();
+		 String json = gson.toJson(target, listType);*/
+		
+		//List<Integer> list = new Gson().fromJson(ticketsearch, new TypeToken<List<Integer>>(){}.getType());
 		
 		
 		
